@@ -21,8 +21,8 @@ services:
     image: trosdan/meetappbackend:0.1
     container_name: "meetappbackend"
     environment:
-      - DB_HOST=localhost
-      - REDIS_HOST=localhost
+      - DB_HOST=172.17.0.1
+      - REDIS_HOST=172.17.0.1
     depends_on:
       - "database"
     ports:

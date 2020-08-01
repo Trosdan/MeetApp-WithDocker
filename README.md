@@ -1,22 +1,12 @@
 # MeetApp With Docker
 
-```
-git clone https://github.com/Trosdan/MeetApp-WithDocker.git
-```
+Clonar projeto
 
-Abrir arquivo docker-compose.yml e trocar `localhost` por seu endereço IP local
+> git clone <https://github.com/Trosdan/MeetApp-WithDocker.git>
 
-```
-environment:
-  - DB_HOST=192.168.0.108
-  - REDIS_HOST=192.168.0.108
-```
+Rodar comando
 
-Por fim rodar.
-
-```
-docker-compose up
-```
+> docker-compose up
 
 Codigo fonte dos projetos
 
